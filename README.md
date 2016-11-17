@@ -1,0 +1,2 @@
+# pingd
+httpd for ping
