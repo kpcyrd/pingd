@@ -1,0 +1,8 @@
+[Unit]
+Description=pingd (%i): httpd for ping
+
+[Service]
+ExecStart=/opt/pingd/pingd.js "%i"
+
+[Install]
+WantedBy=multi-user.target
